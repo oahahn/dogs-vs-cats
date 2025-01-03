@@ -1,0 +1,6 @@
+__pycache__
+data
+logs
+*.pth
+dogs-vs-cats.ipynb
+*.csv

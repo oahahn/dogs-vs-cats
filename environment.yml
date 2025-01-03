@@ -1,0 +1,21 @@
+name: dogs-vs-cats
+channels:
+  - defaults
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.11  
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn=0.12.2
+  - scikit-learn
+  - jupyterlab
+  - tqdm
+  - pillow
+  - pytorch=2.5.1
+  - tensorboard=2.18.0
+  - torchvision=0.20.1
+  - torchaudio=2.5.1
+  - accelerate 
+  
