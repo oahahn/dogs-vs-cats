@@ -6,6 +6,11 @@ import torch.nn as nn
 from torch.utils.tensorboard import SummaryWriter
 import torch
 from torch.optim.lr_scheduler import ReduceLROnPlateau
+import sys
+import os
+
+# Add the project root directory to sys.path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 
 def main():
